@@ -1,0 +1,173 @@
+{
+	"glassInFill": {
+		"name": "Glass in Fill",
+		"price": "12",
+		"buyingType": "per meter",
+		"description": "Glass In Fill installed on site, turned a old staircase into a modern feature piece.",
+        "productPage": "/products/clearGlassBalustrades",
+		"images": [{
+			"url": "img/glassInFill/GlassInfill1.jpg",
+			"description": "Basic Glass In Fill"
+		}, {
+			"url": "img/glassInFill/GlassInfill2.jpg",
+			"description": "Basic Glass In Fill"
+		}, {
+			"url": "img/glassInFill/GlassInfill3.jpg",
+			"description": "Basic Glass In Fill"
+		}, {
+			"url": "img/glassInFill/GlassInfill4.jpg",
+			"description": "Basic Glass In Fill"
+		}, {
+			"url": "img/glassInFill/GlassInfill5.jpg",
+			"description": "Basic Glass In Fill"
+		}, {
+			"url": "img/glassInFill/GlassInfill6.jpg",
+			"description": "Basic Glass In Fill"
+		}]
+	},
+	"balcony": {
+		"name": "Balcony",
+		"price": "200",
+		"buyingType": "For basic",
+		"description": "100% bespoke balcony design and installation to customer spec.",
+        "productPage": "/products/clearGlassBalustrades",
+		"images": [{
+			"url": "img/balcony/balcony1.jpg",
+			"description": "Bespoke design balcony"
+		}, {
+			"url": "img/balcony/balcony2.jpg",
+			"description": "Bespoke design balcony"
+		}, {
+			"url": "img/balcony/balcony4.jpg",
+			"description": "Bespoke design balcony"
+		}, {
+			"url": "img/balcony/balcony5.jpg",
+			"description": "Bespoke design balcony"
+		}]
+	},
+	"glassChannel": {
+		"name": "Glass Channel",
+		"price": "56",
+		"buyingType": " Per meter.",
+		"description": "Avaliable in a number of finishs, all size supplied",
+        "productPage": "/products/clearGlassBalustrades",
+		"images": [{
+			"url": "img/glassChannel/channel1.jpg",
+			"description": "Awesome Glass channeling."
+		}, {
+			"url": "img/glassChannel/channel2.jpg",
+			"description": "Awesome Glass channeling."
+		}, {
+			"url": "img/glassChannel/channel3.jpg",
+			"description": "Awesome Glass channeling."
+		}, {
+			"url": "img/glassChannel/channel4.jpg",
+			"description": "Awesome Glass channeling."
+		}, {
+			"url": "img/glassChannel/channel5.jpg",
+			"description": "Awesome Glass channeling."
+		}, {
+			"url": "img/glassChannel/channel6.jpg",
+			"description": "Awesome Glass channeling."
+		}, {
+			"url": "img/glassChannel/channel7.jpg",
+			"description": "Awesome Glass channeling."
+		}]
+	},
+	"juliet": {
+		"name": "Juliet",
+		"price": "24",
+		"buyingType": "For basic",
+		"description": "Great for making the most of limited space.",
+        "productPage": "/products/clearGlassBalustrades",
+		"images": [{
+			"url": "img/juliet/juliet1.jpg",
+			"description": "Great Views made better."
+		}, {
+			"url": "img/juliet/juliet2.jpg",
+			"description": "Great Views made better."
+		}, {
+			"url": "img/juliet/juliet3.jpg",
+			"description": "Great Views made better."
+		}, {
+			"url": "img/juliet/juliet4.jpg",
+			"description": "Great Views made better."
+		}, {
+			"url": "img/juliet/juliet5.jpg",
+			"description": "Great Views made better."
+		}, {
+			"url": "img/juliet/juliet6.jpg",
+			"description": "Great Views made better."
+		}, {
+			"url": "img/juliet/juliet7.jpg",
+			"description": "Great Views made better."
+		}]
+	},
+	"stairsAndHandrails": {
+		"name": "Stairs and Handrails",
+		"price": "67",
+		"buyingType": "per meter",
+		"description": "Various styles of Stair cases and hand rails offered, from installation to full design and build.",
+        "productPage": "/products/clearGlassBalustrades",
+		"images": [{
+			"url": "img/stairsAndHandrails/stairs1.jpg",
+			"description": "Great looking in all types of enviroments"
+		}, {
+			"url": "img/stairsAndHandrails/stairs2.jpg",
+			"description": "Great looking in all types of enviroments"
+		}, {
+			"url": "img/stairsAndHandrails/stairs3.jpg",
+			"description": "Great looking in all types of enviroments"
+		}, {
+			"url": "img/stairsAndHandrails/stairs4.jpg",
+			"description": "Great looking in all types of enviroments"
+		}, {
+			"url": "img/stairsAndHandrails/stairs5.jpg",
+			"description": "Great looking in all types of enviroments"
+		}]
+	},
+	"standard": {
+		"name": "Standard Balustrade",
+		"price": "10",
+		"buyingType": "per meter",
+		"description": "Ye ole standard Balustrade simple but by far the most popular product we have on offer.",
+        "productPage": "/products/clearGlassBalustrades",
+		"images": [{
+			"url": "img/standard/standard1.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard2.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard3.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard4.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard5.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard6.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard7.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard8.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard9.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard10.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard11.jpg",
+			"description": "The good old standard"
+		}, {
+			"url": "img/standard/standard12.jpg",
+			"description": "The good old standard"
+		}]
+	}
+}

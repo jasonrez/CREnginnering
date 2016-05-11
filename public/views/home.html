@@ -1,0 +1,80 @@
+<!-- Content for each page goes here -->
+        
+<div class="row">
+        
+    <!-- carousel start -->
+    <div class="carousel slide" id="mySlider" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#mySlider" data-slide-to="0" class="acive"></li>
+            <li data-target="#mySlider" data-slide-to="1"></li>
+            <li data-target="#mySlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/standard/standard11.jpg">
+                <div class="carousel-caption">
+                    <h2>Standard Balustrade</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/standard/standard2.jpg">
+                <div class="carousel-caption">
+                    <h2>Railing System</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/glassInFill/GlassInfill5.jpg">
+                <div class="carousel-caption">
+                    <h2>Glass In Fill</h2>
+                </div>
+            </div>
+        </div>
+        <a class="right carousel-control" href="#mySlider" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        <a class="left carousel-control" href="#mySlider" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+    </div>
+    <!-- carousel end -->
+    
+    <div class="row">
+        <div id="Products" ng-repeat="product in products">
+            <div class="col-xs-12 col-sm-4 col-lg-2">
+                <div class="panel panel-primary ">
+                    <div class="panel-heading">
+                        {{ product.name }}
+                    </div>
+                    <div class="panel-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <img class="img-responsive" src="{{ product.images[0].url }}">
+                        </div>
+                        {{ product.description }}</div>
+                    <div class="panel-footer>">
+                        <a href="#/products/prodTemplate" 
+                           ng-click="clicked(product)">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="Itroduction">
+    <h1>Welcome to CR Engineering</h1>
+
+        <p>
+            We offer various types of baulstrade and handrails systems. also you draw it we will make it.
+            We supply in modular form for self build professionals/DIY enthusiast.
+        </p>
+
+        <p>
+            If your not sure what you need Call us and we can help you with any questions or queries.
+        </p>
+    </div>
+    
+</div>
+
+
+        
+      
+        

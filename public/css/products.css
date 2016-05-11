@@ -1,0 +1,32 @@
+/* css for CR Engineering products page */
+
+.product{
+     padding: 10px;
+     margin-bottom: 10px;
+}
+#feature * {
+    text-align: left;
+    background-color: #708090;
+}
+
+#feature ul {
+    overflow: hidden;
+}
+#feature li {
+
+}
+
+#featureHeading {
+     padding 5px;
+    
+}
+#feature img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+}

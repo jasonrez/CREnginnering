@@ -1,0 +1,23 @@
+        
+<div class="row">
+    
+<div ng-repeat="product in products">
+    <div class="row" ng-model="showPictures"></div>
+        {{ product.name }} {{ product.price | currency:'£' }}: {{product.buyingType }}
+        <p>
+            {{product.description}}
+            <input type="button" ng-click="showPictures=!showPictures" value="show/hide">
+        </p>
+          <div class="col-xs-12 col-md-2" ng-repeat="item in product.images" ng-show="showPictures">
+            <a href="{{ item.url }}" class="thumbnail image-responsive">
+              <img src="{{ item.url }}" width="171" height="180" alt="{{product.name}}">
+                <div class="caption">
+                    <p>{{ item.description }}</p>
+                </div>
+            </a>  
+          </div>
+    </div>
+</div>
+
+        
+        

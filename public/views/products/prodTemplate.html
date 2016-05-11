@@ -1,0 +1,54 @@
+<div id="prodTemplate">
+     <h1>{{ parentValue.name }}</h1>
+    <p> {{ parentValue.description }}</p>
+    
+    
+    <!-- quotation form using ng-if -->
+            
+    <div class="col-xs-12">
+        <div class="panel panel-default" id="quote" >
+            <div class="panel-heading">
+                <h2>Please fill our form and get a quote for {{ parentValue.name }}</h2>
+            </div>
+            <div class="panel-body">
+                <form name="quoteForm" ng-controller="quoteCtrl">
+                    <!-- intenal or external -->
+                    <div class="form-group">
+                        Location Of Build: 
+                        <label>
+                            <input type="radio" name="buildLocation"  value="External" checked="true"> External
+                            <input type="radio" name="buildLocation"  value="Internal" > Internal
+                        </label> 
+                    </div>
+                    <!-- dimesions of work -->
+                    <div id="quoteLength" class="form-group">
+                        Please give details of the lengths for each section followed by how many corners there will be:
+                        <br/>
+                        <label for="length1">Length 1 </label><input type="number" name="length1"><br/>
+                        <label for="length2">Length 2 </label><input type="number" name="length2"><br/>
+                        <label for="length3">Length 3 </label><input type="number" name="length4"><br/>
+                        <label for="length4">Length 4 </label><input type="number" name="length4"><br/>
+                        <label for="corners">Corners </label><input type="number" name="corners">
+                    </div>
+                    <!-- customer details -->
+                    <div id="quoteClientDetails" class="form-group">
+                        Please Fill out your details below:<br/>
+                        <label for="clientName">Name </label><input type="text" name="clientName"> <br/>
+                        <label for="clientTel">Phone Number</label><input type="tel"  name="clientTel"><br/>
+                        <label for="clientEmail">Email(to send quote to)</label><input type="email" name="clientEmail"><br/>
+                        <label for="siteLocation">Site location for work to be carried out</label><input type="text" name="siteLocation"><br/>
+                    
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Get Your Quote" class="btn btn-primary">
+                    </div>
+
+                </form>
+
+            </div>
+        </div> <!-- end quote -->
+    </div>
+
+    
+                                
+</div>
